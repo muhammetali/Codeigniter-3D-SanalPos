@@ -18,6 +18,10 @@
         });
     });
 
+    $(document).on("click", ".banka_ekle", function (e) {
+		$(".info_title").html('Banka Ekle');
+	});
+    
     $(document).on("click", ".bank_settings", function (e) {
         e.preventDefault();
         var bank_id = $(this).data('bank-id');
