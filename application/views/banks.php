@@ -40,7 +40,7 @@
             <div class="card">
                 <div class="card-header header-elements-inline">
                     <h5 class="card-title">Bankalar</h5>
-                    <a href="#" class="breadcrumb-elements-item" data-toggle="modal" data-target="#bank_modal"><i class="icon-plus3 mr-2"></i>Yeni Banka Tanımla</a>
+                    <a href="#" class="breadcrumb-elements-item banka_ekle" data-toggle="modal" data-target="#bank_modal"><i class="icon-plus3 mr-2"></i>Yeni Banka Tanımla</a>
                 </div>
                 <div class="card-body" style="padding: 0.0rem;"></div>
                 <table class="table">
