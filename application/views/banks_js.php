@@ -8,6 +8,7 @@
         var bank_id = $(this).data('bank-id');
         $.post('<?php echo base_url('banks/bank_detail');?>', {bank_id: bank_id}, function (data) {
             $("input[name='bank_id']").val(data['bank_id']);
+	    $(".info_title").html(data['bank_name']);
             $("input[name='name']").val(data['name']);
             $("select[name='method']").val(data['method']).trigger('change');
             $("select[name='model']").val(data['model']).trigger('change');
